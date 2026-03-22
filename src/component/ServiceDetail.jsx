@@ -129,10 +129,8 @@ const ServiceDetail = () => {
                                 </div>
 
                                 <Button
-                                    className="px-4 py-2 rounded-pill fw-bold border-0"
+                                    className="px-4 py-2 rounded-pill yello-bg fw-bold text-dark border-0"
                                     style={{ 
-                                        backgroundColor: '#FFD700', 
-                                        color: '#000',
                                         minWidth: '120px'
                                     }}
                                 >

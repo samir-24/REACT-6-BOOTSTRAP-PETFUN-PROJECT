@@ -31,7 +31,7 @@ function Contact() {
                     className="rounded-5 position-relative"
                     style={{
                         backgroundColor: '#FFC107',
-                        minHeight: '220px', // બોક્સને નાનું (Slim) કરવા માટે
+                        minHeight: '220px',
                         display: 'flex',
                         alignItems: 'center',
                         padding: '20px 0'
@@ -54,9 +54,9 @@ function Contact() {
                                 alt="Pet Products"
                                 className="img-fluid"
                                 style={{ 
-                                    height: '350px', // ઈમેજને બોક્સ કરતા મોટી કરવા માટે
-                                    marginTop: '-80px', // ઉપરથી બહાર કાઢવા માટે
-                                    marginBottom: '-50px', // નીચેથી બહાર કાઢવા માટે
+                                    height: '350px', 
+                                    marginTop: '-80px', 
+                                    marginBottom: '-50px',
                                     objectFit: 'contain',
                                     filter: 'drop-shadow(0 10px 15px rgba(0,0,0,0.2))'
                                 }}
@@ -64,13 +64,12 @@ function Contact() {
                         </Col>
 
                         <Col md={4} className="text-center text-md-end pe-md-5">
-                            <p className="text-danger fw-bold mb-1" style={{ fontSize: '14px' }}>
+                            <p className="text-danger fw-bold mb-1 fs-6" >
                                 Summer Sale Offer
                             </p>
                             <h1 className="display-5 fw-bold text-dark mb-3">50% Off Now!</h1>
                             <Button
-                                className="px-4 py-2 rounded-pill fw-bold border-0 shadow"
-                                style={{ backgroundColor: '#FF5722', color: 'white' }}
+                                className="px-4 py-2 rounded-pill fw-bold border-0 shadow icon-box-2"
                             >
                                 Shop On Discount!
                             </Button>

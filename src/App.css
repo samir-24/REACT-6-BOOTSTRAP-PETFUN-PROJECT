@@ -7,7 +7,7 @@
 }
 
 .petFun-bg {
-    background-color: rgb(234, 222, 187);
+    background-color: #ebdfbd;
 }
 
 .fs-6 {
@@ -113,4 +113,10 @@ body {
  }
  .yello-bg{
     background-color: #FFD93D;
+ }
+ .blog-bg{
+    background-color: #FDF7E9;
+ }
+ textarea{
+    resize: none;
  }

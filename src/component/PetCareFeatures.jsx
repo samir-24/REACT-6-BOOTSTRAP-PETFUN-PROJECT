@@ -1,25 +1,33 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import petFeature1 from '../../public/assets/images/about-petcare.png'
 import { MdOutlinePets } from "react-icons/md";
 import { BiInjection } from "react-icons/bi";
 
-const PetCareFeatures = () => {
+
+
+const PetCareFeatures = ({
+    badgeText,
+    title,
+    highlightTitle,
+    description,
+    image,
+    phone,
+}) => {
     return (
         <div className="py-5">
             <Container>
                 <Row className="align-items-center">
                     <Col lg={6} className='text-center mb-4 mb-lg-0'>
-                        <img src={petFeature1} alt="Pet Care" className='w-100 object-fit-contain img-max' />
+                        <img src={image} alt="Pet Care" className='w-100 object-fit-contain img-max' />
                     </Col>
 
-                    <Col lg={6} className='ps-lg-5'> 
+                    <Col lg={6} className='ps-lg-5'>
                         <div className="pet-care-title">
-                            <h4 className='color-primary fw-semibold'>Every Pets Deserves Care!</h4>
+                            <h4 className='color-primary fw-semibold'>{badgeText}</h4>
                             <h2 className='fw-bold fs-1'>
-                                Personalized Pet Care You Can Always <span>Trust</span>
+                                {title} <span>{highlightTitle}</span>
                             </h2>
-                            <p className="text-muted mt-3">High-quality veterinary care to keep pets healthy and happy from routine checkups to advanced treatments, always.</p>
+                            <p className="text-muted mt-3">{description}</p>
                         </div>
 
                         <Row className="mt-4">
@@ -28,7 +36,7 @@ const PetCareFeatures = () => {
                                     <MdOutlinePets size={25} />
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">Pet Care</h5>
+                                    <h5 className="mb-0 fw-bold">Pet Care</h5>
                                     <p className="mb-0">High-quality veterinary care to keep pets healthy.</p>
                                 </div>
                             </Col>
@@ -39,7 +47,7 @@ const PetCareFeatures = () => {
                                     <BiInjection size={25} />
                                 </div>
                                 <div>
-                                    <h5 className="mb-0">Veterinary</h5>
+                                    <h5 className="mb-0 fw-bold">Veterinary</h5>
                                     <p className="mb-0">High-quality veterinary care to keep pets healthy.</p>
                                 </div>
                             </Col>
@@ -47,11 +55,11 @@ const PetCareFeatures = () => {
 
                         <div className='mt-3'>
                             <div className='mb-2 d-flex align-items-center'>
-                                <MdOutlinePets className='me-2 color-primary'  />
+                                <MdOutlinePets className='me-2 color-primary' />
                                 <p className='fw-bold mb-0'>Comprehensive Health Check-ups</p>
                             </div>
                             <div className='mb-4 d-flex align-items-center'>
-                                <MdOutlinePets className='me-2 color-primary'/>
+                                <MdOutlinePets className='me-2 color-primary' />
                                 <p className='fw-bold mb-0'>Emergency & First Aid Support</p>
                             </div>
                         </div>
@@ -64,7 +72,7 @@ const PetCareFeatures = () => {
                                 </div>
                                 <div>
                                     <p className="d-block mb-0 fw-semibold">Emergency Call:</p>
-                                    <span className='fs-3 fw-semibold color-primary'>00123456789</span>
+                                    <span className='fs-3 fw-semibold color-primary'>{phone}</span>
                                 </div>
                             </div>
                         </div>

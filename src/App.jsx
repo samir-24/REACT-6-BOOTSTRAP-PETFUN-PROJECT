@@ -7,6 +7,7 @@ import OurDoctor from './pages/OurDoctor'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Faq from './pages/Faq'
+import Review from './pages/Review'
 import Navigation from './component/Navigation'
 import Footer from './component/Footer'
 import './App.css'
@@ -27,6 +28,7 @@ function App() {
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/faq' element={<Faq />}></Route>
+        <Route path='/review' element={<Review />}></Route>
       </Routes>
       <Footer />
     </>

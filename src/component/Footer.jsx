@@ -49,8 +49,8 @@ const Footer = () => {
                                 <li>
                                     <h5 className='color-primary'>Phone - Email: </h5>
                                     <p >
-                                        <a href="tel:+0012345678" className='fs-6 text-dark'> +00 12345678 </a> - 
-                                        <a href="mailto:hi@petfun.com" className='fs-6 text-dark'>  hi@petfun.com </a>
+                                        <a href="tel:+0012345678" className='fs-6 text-dark text-decoration-none '> +00 12345678 </a> - 
+                                        <a href="mailto:hi@petfun.com" className='fs-6 text-dark text-decoration-none'>  hi@petfun.com </a>
                                     </p>
                                 </li>
                                 <li>
@@ -82,7 +82,7 @@ const Footer = () => {
                             height: '150px',
                             display: 'block',
                             margin: '0 auto',
-                            marginBottom: '-30px' // નીચેની પટ્ટી સાથે ટચ કરવા
+                            marginBottom: '-30px'
                         }}
                     />
                 </div>
