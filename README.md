@@ -1,3 +1,70 @@
+# PetFun - Pet Care Website
+
+## Project Overview
+
+PetFun is a responsive pet care website developed using React.js and Bootstrap. The main goal of this project is to create an attractive and user-friendly frontend interface for a pet-related platform where users can explore pet services, information, and engaging content through a modern web design.
+
+This project focuses on building reusable React components, responsive layouts, and a clean user interface using Bootstrap utilities and styling components.
+
+## Features
+
+* Responsive design compatible with desktop, tablet, and mobile devices
+* Modern and user-friendly interface
+* Component-based development using React.js
+* Responsive navigation bar
+* Attractive homepage layout
+* Pet service sections and information display
+* Bootstrap-based responsive grid system
+* Clean and organized UI structure
+
+## Technologies Used
+
+* React.js
+* JavaScript (ES6+)
+* Bootstrap
+* HTML5
+* CSS3
+* Git & GitHub
+
+## Project Purpose
+
+The purpose of this project was to improve frontend development skills by creating a real-world responsive website using React.js and Bootstrap. It helped in understanding component structure, UI development, responsive design principles, and efficient code organization.
+
+## Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/samir-24/REACT-6-BOOTSTRAP-PETFUN-PROJECT.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd REACT-6-BOOTSTRAP-PETFUN-PROJECT
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm start
+```
+
+The application will run on the local development server.
+
+## Author
+
+Samir Patel
+
+GitHub: https://github.com/samir-24
+
+
 #SCREENSHOTS 
 <img width="1893" height="893" alt="s1" src="https://github.com/user-attachments/assets/d173ee6e-5fe3-43ec-ad4b-62d4b31d2d89" />
 <img width="1885" height="899" alt="s2" src="https://github.com/user-attachments/assets/0889598f-004a-4527-9f5d-c0e9ebdd3e11" />
