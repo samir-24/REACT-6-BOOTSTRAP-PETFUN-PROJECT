@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../public/assets/images/logo.png'
+import logo from '/assets/images/logo.png'
 import { Col } from 'react-bootstrap';
 
 function Navigation() {

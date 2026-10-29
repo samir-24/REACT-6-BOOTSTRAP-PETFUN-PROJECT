@@ -7,21 +7,21 @@ const BlogSec = () => {
     {
       id: 1,
       title: 'Common Pet Care Mistakes And How To Avoid Them',
-      img: '../../public/assets/images/service1.jpg',
+      img: '/assets/images/service1.jpg',
       author: 'Mostain',
       comments: 'No Comments'
     },
     {
       id: 2,
       title: 'Pet Grooming Made Easy Step-By-Step Guide',
-      img: '../../public/assets/images/service2.jpg',
+      img: '/assets/images/service2.jpg',
       author: 'Mostain',
       comments: 'No Comments'
     },
     {
       id: 3,
       title: 'Choosing The Right Vet: Tips For Pet Parents',
-      img: '../../public/assets/images/service3.jpg',
+      img: '/assets/images/service3.jpg',
       author: 'Mostain',
       comments: 'No Comments'
     }
@@ -35,7 +35,7 @@ const BlogSec = () => {
             <div className="position-relative">
               <Card.Img 
                 variant="top" 
-                src="../../public/assets/images/mainService.jpg" 
+                src="/assets/images/mainService.jpg" 
                 className="w-100" 
                 style={{ height: '350px', objectFit: 'cover' }} 
               />

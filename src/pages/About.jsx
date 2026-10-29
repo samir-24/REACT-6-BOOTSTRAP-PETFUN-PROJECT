@@ -1,9 +1,9 @@
 import HeroBanner from '../component/HeroBanner';
 import PetCareFeatures from '../component/PetCareFeatures';
-import img2 from '../../public/assets/images/about-vet.png'
+import img2 from '/assets/images/about-vet.png'
 import TeamSection from '../component/TeamSection';
 import { Container, Row , Col } from 'react-bootstrap';
-import video from '../../public/assets/images/video-bg.mp4';
+import video from '/assets/images/video-bg.mp4';
 import ContactForm from '../component/ContactForm'
 import Testimonials from '../component/Testimonials';
 

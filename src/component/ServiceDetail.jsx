@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
-import service1 from '../../public/assets/images/service1.jpg'
-import service2 from '../../public/assets/images/service2.jpg'
-import service3 from '../../public/assets/images/service3.jpg'
-import serviceFood from '../../public/assets/images/service-img-food.png'
+import service1 from '/assets/images/service1.jpg'
+import service2 from '/assets/images/service2.jpg'
+import service3 from '/assets/images/service3.jpg'
+import serviceFood from '/assets/images/service-img-food.png'
 
 const servicesData = [
     {

@@ -1,6 +1,6 @@
 import MainSlide from './MainSlide';
 import PetCareFeatures from '../component/PetCareFeatures';
-import img1 from '../../public/assets/images/about-petcare.png'
+import img1 from '/assets/images/about-petcare.png'
 import ServiceDetail from '../component/ServiceDetail';
 import TeamSection from '../component/TeamSection';
 import { Container, Col, Row } from 'react-bootstrap';

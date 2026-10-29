@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import { FaQuoteRight, FaStar } from 'react-icons/fa';
-import testi1 from '../../public/assets/images/testi1.png'
-import testi2 from '../../public/assets/images/testi2.png'
-import testi3 from '../../public/assets/images/testi3.png'
+import testi1 from '/assets/images/testi1.png'
+import testi2 from '/assets/images/testi2.png'
+import testi3 from '/assets/images/testi3.png'
 
 const Testimonials = () => {
   const reviews = [

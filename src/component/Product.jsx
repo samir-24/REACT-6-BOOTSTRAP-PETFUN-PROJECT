@@ -6,14 +6,14 @@ const Product = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   const products = [
-    { id: 1, name: 'PurePaws Nutrition', price: '470.00$', oldPrice: '625.00$', sale: true, img: '../../public/assets/images/p1.png' },
-    { id: 2, name: 'Golden Meals', price: '475.00$', oldPrice: '', sale: false, img: '../../public/assets/images/p2.png' },
-    { id: 3, name: 'FurLife Nutrition', price: '245.00$', oldPrice: '375.00$', sale: true, img: '../../public/assets/images/p3.png' },
-    { id: 4, name: 'Whisker Food', price: '545.00$', oldPrice: '775.00$', sale: true, img: '../../public/assets/images/p4.png' },
-    { id: 5, name: 'Joyful Paws', price: '120.00$', oldPrice: '250.00$', sale: true, img: '../../public/assets/images/p5.png' },
-    { id: 6, name: 'MeowMix Delight', price: '550.00$', oldPrice: '', sale: false, img: '../../public/assets/images/p6.png' },
-    { id: 7, name: 'TruePaws Formula', price: '550.00$', oldPrice: '', sale: false, img: '../../public/assets/images/p7.png' },
-    { id: 8, name: 'Premium Dog Food', price: '650.00$', oldPrice: '850.00$', sale: true, img: '../../public/assets/images/p8.png' },
+    { id: 1, name: 'PurePaws Nutrition', price: '470.00$', oldPrice: '625.00$', sale: true, img: '/assets/images/p1.png' },
+    { id: 2, name: 'Golden Meals', price: '475.00$', oldPrice: '', sale: false, img: '/assets/images/p2.png' },
+    { id: 3, name: 'FurLife Nutrition', price: '245.00$', oldPrice: '375.00$', sale: true, img: '/assets/images/p3.png' },
+    { id: 4, name: 'Whisker Food', price: '545.00$', oldPrice: '775.00$', sale: true, img: '/assets/images/p4.png' },
+    { id: 5, name: 'Joyful Paws', price: '120.00$', oldPrice: '250.00$', sale: true, img: '/assets/images/p5.png' },
+    { id: 6, name: 'MeowMix Delight', price: '550.00$', oldPrice: '', sale: false, img: '/assets/images/p6.png' },
+    { id: 7, name: 'TruePaws Formula', price: '550.00$', oldPrice: '', sale: false, img: '/assets/images/p7.png' },
+    { id: 8, name: 'Premium Dog Food', price: '650.00$', oldPrice: '850.00$', sale: true, img: '/assets/images/p8.png' },
   ];
 
   return (

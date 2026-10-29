@@ -1,7 +1,7 @@
 import React from "react"
 import { Container , Row , Col , Button } from "react-bootstrap"
 import ContactForm from "../component/ContactForm"
-import ContactItem from '../../public/assets/images/contact-img.png'
+import ContactItem from '/assets/images/contact-img.png'
 
 
 function Contact() {

@@ -1,10 +1,10 @@
 import React from 'react'
 import HeroBanner from '../component/HeroBanner'
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import testi1 from '../../public/assets/images/testi1.png'
-import testi2 from '../../public/assets/images/testi2.png'
-import testi3 from '../../public/assets/images/testi3.png'
-import testi4 from '../../public/assets/images/testi4.png'
+import testi1 from '/assets/images/testi1.png'
+import testi2 from '/assets/images/testi2.png'
+import testi3 from '/assets/images/testi3.png'
+import testi4 from '/assets/images/testi4.png'
 import { FaStar } from 'react-icons/fa';
 
 const Review = () => {

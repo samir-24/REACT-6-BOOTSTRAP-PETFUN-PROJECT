@@ -2,7 +2,7 @@ import React from 'react';
 import HeroBanner from '../component/HeroBanner';
 import PetCareFeatures from '../component/PetCareFeatures';
 import ServiceDetail from '../component/ServiceDetail';
-import img1 from '../../public/assets/images/about-petcare.png'
+import img1 from '/assets/images/about-petcare.png'
 
 const Services = () => {
   return (
